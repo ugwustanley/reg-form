@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+.body{
+    width:100%;
+    min-height:100vh;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    margin-top:0px;
+    background-color: rgb(68, 63, 63);
+}
+.main{
+    width:100%;
+    max-width:400px;
+    margin:0 auto;
+    margin-top: 50px;
+    min-height:500px;
+    background-color: #121212;
+    padding:40px;
+    margin-bottom: 30px;
+}
+.form_head{
+    margin:auto;
+    text-align: center;
+}
+.form_head  b{
+    color:tomato; 
+    font-size: 50px;
+}
+.error{
+    width:80%;
+    min-height:20px;
+    padding:20px;
+    background-color:  rgb(253, 80, 49);
+    text-align: center;
+    margin:auto;
+    color:rgb(230, 215, 215);
+   display:none;
+}
+.input{
+    margin-top:20px;
+}
+.input_field{
+    padding:11px;
+    width:95%;
+    display:block;
+    margin-top: 20px;
+    font-size:18px;
+    background-color: #3636364b;
+    border:none;
+    outline:none;
+    color:#fff;
+}
+.fa-phone-square-alt{
+   color: #121212;
+    display:block;
+    margin-top:-40px;
+    margin-left: 10px;
+    font-size: 38px;
+}
+.contact{
+    padding-left:50px;
+    width:calc(95% - 38px)
+}
+.nations{
+    padding:11px;
+    width:100%;
+    display:block;
+    margin-top: 20px;
+    font-size:18px;
+    background-color: #3636364b;
+    border:none;
+    outline:none;
+    color:#fff;
+    
+}
+.nations > option{
+  background-color: #121212;
+}
+.state{
+    padding:11px;
+    width:100%;
+    display:block;
+    margin-top: 20px;
+    font-size:18px;
+    background-color: #3636364b;
+    border:none;
+    outline:none;
+    color:#fff;
+     
+}
+.state > option{
+    background-color: #121212;
+  }
+.submit{
+    padding: 10px 30px 10px 30px;
+    border:none;
+    outline:none;
+    background-color: rgb(240, 61, 29);
+    color:#fff;
+    font-size: 18px;
+    display: block;
+    margin:auto;
+    margin-top:30px;
+    width:120px;
+    height:40px;
+
+}
+.submit:hover{
+    background-color: tomato;
+}
+/* media query form small screen sizes*/
+@media (max-width:500px){
+    .main{
+        margin:0px;
+        width:calc(100% - 20px);
+        overflow: hidden;
+        padding: 20px;
+    }
+    .input_field{
+        width:80%;
+       
+    }
+    .contact{
+        width:calc(80% - 38px)
+    }
+    .nations{
+        width:85%
+    }
+    .state{
+        width:85%
+    }
+}

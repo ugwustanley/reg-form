@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- dataset and viewport  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font awesome cdn and google font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+     <!-- css style sheet -->
+    <link rel="stylesheet" href="./style.css">   
+     <!-- work title-->
+    <title>Okoro Mmaduabuchi contact From</title>
+</head>
+<body class="body">
+     <!-- registration form box -->
+    <div class="main">
+         <!-- input form  -->
+<form action="" onsubmit="formValidation(event)" autocomplete="off">
+    <div class="form_head">
+         <!-- input form heading-->
+        <h1>Form. <b>GET</b></h1>
+    </div>
+    <div class="marquee">
+        <marquee> Okoro Mmaduabuchi</marquee>
+    </div>
+     <!-- input fields-->
+    <div class="error">
+        <h3>Please Enter a valid Name</h3>
+    </div>
+    <div class="first_name input">
+        <label for="f_name">First Name <i style="color:tomato">*</i></label>
+        <input type="text" class="f_name input_field" id="f_name">
+    </div>
+    <div class="last_name input">
+        <label for="l_name">Last Name <i style="color:tomato">*</i></label>
+        <input type="text" class="l_name input_field" id="l_name">
+    </div>
+    <div class="first_name input">
+        <label for="contact">Contact Number<i style="color:tomato">*</i></label>   
+        <input type="number" inputmode="numeric" class="contact input_field" id="contact">
+        <i class="fas fa-phone-square-alt"></i>
+    </div>
+    <div class="email-box input">
+        <label for="email">Email <i style="color:tomato">*</i></label>
+        <input type="email" inputmode="email" placeholder="example@gmail.com" class="email input_field" id="email">
+    </div>
+    <div class="birth_date input">
+        <label for="dbirth">Date of Birth <i style="color:tomato">*</i></label>
+        <input type="date" class="dbirth input_field" id="dbirth">
+    </div>
+    <div class="nationality input">
+        <label for="nations">Nationality <i style="color:tomato">*</i></label>
+        
+        <select name="nationality" id="nations" class="nations">
+            <option value=""></option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="United Arab Emirates">United Arab Emirates</option>
+            <option value="United States of America">United States of America</option>
+            <option value="France">France</option>
+            <option value="South Africa">South Africa</option>
+        </select>
+    </div>
+    <div class="nationality input">
+        <label for="state">State of Origin <i style="color:tomato">*</i></label>
+        
+        <select name="state" id="state" class="state">
+            <option value=""></option>
+            <option value="Abia">Abia</option>
+            <option value="Adamawa">Adamawa</option>
+            <option value="Akwa Ibom">Akwa Ibom</option>
+            <option value="Anambra">Anambra</option>
+            <option value="Bauchi">Bauchi</option>
+            <option value="Bayelsa">Bayelsa</option>
+            <option value="Benue">Benue</option>
+            <option value="Borno">Borno</option>
+            <option value="Cross River">Cross River</option>
+            <option value="Delta">Delta</option>
+            <option value="Ebonyi">Ebonyi</option>
+            <option value="Edo">Edo</option>
+            <option value="Ekiti">Ekiti</option>
+            <option value="Enugu">Enugu</option>
+            <option value="Gombe">Gombe</option>
+            <option value="Imo">Imo</option>
+            <option value="Jigawa">Jigawa</option>
+            <option value="Kaduna">Kaduna</option>
+            <option value="Kano">Kano</option>
+            <option value="Kastina">Kastina</option>
+            <option value="Kebbi">Kebbi</option>
+            <option value="Kogi">Kogi</option>
+            <option value="Kwara">Kwara</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Nasarawa">Nasarawa</option>
+            <option value="Niger">Niger</option>
+            <option value="Ogun">Ogun</option>
+            <option value="Ondo">Ondo</option>
+            <option value="Osun">Osun</option>
+            <option value="Oyo">Oyo</option>
+            <option value="Plateau">Plateau</option>
+            <option value="Rivers">Rivers</option>
+            <option value="Sokoto">Sokoto</option>
+            <option value="Taraba">Taraba</option>
+            <option value="Yobe">Yobe</option>
+            <option value="Zamfara">Zamfara</option>
+            <option value="FCT">FCT</option>  
+        </select>
+    </div>
+     <!-- submit button -->
+    <div class="submission">
+        <input type="submit" value="Register" class="submit">
+    </div>
+</form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
